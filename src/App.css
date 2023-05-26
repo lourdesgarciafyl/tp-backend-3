@@ -1,0 +1,14 @@
+#colorInput{
+  padding: 2;
+	border: none;
+	height: 130px;
+	width: 130px;
+	vertical-align: middle;
+}
+#btnAgregar{
+  font-size: medium;
+  width: 80px;
+  height: 40px;
+  margin-top: 45px;
+  background-color: #563d7c;
+}
