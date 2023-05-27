@@ -1,3 +1,11 @@
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#containerPrincipal{
+  flex-grow: 1;
+}
 #colorInput{
   padding: 2;
 	border: none;

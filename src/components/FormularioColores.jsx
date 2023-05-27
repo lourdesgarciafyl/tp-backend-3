@@ -4,7 +4,7 @@ import BloqueColores from "./BloqueColores";
 const FormularioColores = () => {
 
     return(
-    <section className="container">
+    <section className="container" id="containerPrincipal">
         <h1 className="display-6 mb-0 text-center">Paleta de colores</h1>
 
         <Form className="d-flex flex-row justify-content-center mt-2">
