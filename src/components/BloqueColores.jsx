@@ -1,11 +1,11 @@
-import {CardGroup} from "react-bootstrap"
-
+import {Row} from "react-bootstrap"
+import CardColor from "./CardColor";
 const BloqueColores = () => {
 
     return(
-        <CardGroup>
-            
-        </CardGroup>
+        <Row xs={2} md={4} className="g-4">
+            <CardColor className="col-4"></CardColor>
+        </Row>
     )
 }
 

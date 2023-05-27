@@ -3,13 +3,15 @@ import {Card, Col} from "react-bootstrap"
 const CardColor = () => {
 
     return (
-        <Card>
-        <Card.Img variant="top" src="holder.js/100px180" fluid/>
-        <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Button variant="primary">Go somewhere</Button>
-       </Card.Body>
-       </Card>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <button className="btn btn-danger">Eliminar</button>
+            </Card.Body>
+          </Card>
+        </Col>
     )
 }
 
