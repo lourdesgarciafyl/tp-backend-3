@@ -1,14 +1,14 @@
 import {Card, Col} from "react-bootstrap"
+import { XCircle } from "react-bootstrap-icons";
 
-const CardColor = () => {
-
+const CardColor = ({itemColor, borrarColor}) => {
     return (
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <button className="btn btn-danger">Eliminar</button>
+          <div style={{background:itemColor}} className="fondoColor w-100" ></div>
+            <Card.Body className="text-center">
+              <Card.Title>{itemColor}</Card.Title>
+              <button className="btn btn-danger rounded-5" onClick={()=>borrarColor(itemColor)}><XCircle className="text-white"/></button>
             </Card.Body>
           </Card>
         </Col>
