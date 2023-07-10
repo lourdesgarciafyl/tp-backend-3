@@ -1,11 +1,12 @@
 import {Row} from "react-bootstrap"
 import CardColor from "./CardColor";
-const BloqueColores = ({colores, borrarColor}) => {
+
+const BloqueColores = ({colores, setColores}) => {
 
     return(
         <Row xs={2} md={4} className="g-4 mt-3">
-            {colores.map((item,indice) =>(
-                <CardColor className="col-4" itemColor={item} indiceColor={indice} borrarColor={borrarColor}></CardColor>
+            {colores.map((color) =>(
+                <CardColor className="col-4" color={color} key={color.id} setColores={setColores}></CardColor>
             ))}
         </Row>
     )

@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "nombreColor": "#E8B8CA",
+      "id": 1
+    },
+    {
+      "nombreColor": "#1E8B8F",
+      "id": 2
+    },
+    {
+      "nombreColor": "#705E9C",
+      "id": 3
+    },
+    {
+      "nombreColor": "#CB3A87",
+      "id": 5
+    },
+    {
+      "nombreColor": "#87CB3A",
+      "id": 6
+    },
+    {
+      "nombreColor": "#00FFFF",
+      "id": 7
+    }
+  ]
+}
